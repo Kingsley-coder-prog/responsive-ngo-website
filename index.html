@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="img/favicon.png" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="icon" href="/logo.webp" />
+    <link rel="apple-touch-icon" href="/logo.webp" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -24,12 +25,12 @@
     <title>Uhere Study Centre</title>
   </head>
   <body>
-    <button type="button" id="mobile-naxv-toggle">
+    <button type="button" id="mobile-nav-toggle">
       <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
       <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
     </button>
 
-    <header id="header">
+    <header id="header" class="header-scrolled">
       <div class="header-top">
         <div class="container">
           <div class="row">
@@ -74,7 +75,7 @@
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
             <a href="index.html">
-              <img src="#" alt="logo" />
+              <img src="./logo.webp" alt="logo" />
             </a>
           </div>
           <nav class="nav-menu-container">
@@ -282,25 +283,6 @@
               <input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = '' " onblur="this.placeholder = 'Your Phone Number'" />
               <input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = '' " onblur="this.placeholder = 'Your Email Address'" />
 
-              <!-- <div class="form-select" id="service-select">
-                <select style="display: none">
-                  <option>Choose Course</option>
-                  <option value="1">Course One</option>
-                  <option value="2">Course Two</option>
-                  <option value="3">Course Three</option>
-                  <option value="4">Course Four</option>
-                </select>
-                <div class="nice-select" tabindex="0">
-                  <span class="current">Choose Course</span>
-                  <ul class="list">
-                    <li data-value="Choose Course" class="option selected focus">Choose Course</li>
-                    <li data-value="1" class="option">Course One</li>
-                    <li data-value="2" class="option">Course Two</li>
-                    <li data-value="3" class="option">Course Three</li>
-                    <li data-value="4" class="option">Course Four</li>
-                  </ul>
-                </div>
-              </div> -->
               <div>
                 <select id="select-where" name="select-where" required>
                   <option value="">Please choose one option:</option>
@@ -317,5 +299,165 @@
         </div>
       </div>
     </section>
+
+    <section class="upcoming-event-area section-gap">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Upcoming Events of our Institute</h1>
+              <p>If you are a serious astronomy fanatic like a lot of us</p>
+            </div>
+          </div>
+        </div>
+        <div class="event-row">
+          <div class="row-card">
+            <div class="row-img">
+              <img src="./img/person3.jpg" alt="card-img" />
+            </div>
+            <div class="row-text">
+              <h4>25th February, 2023</h4>
+              <h2>Professional Prestige through Dilligence</h2>
+              <p>For most of us, the idea of astronomy is something we directly connect to "stargazing", telescope and seeing magnificient displays in the heavens.</p>
+            </div>
+          </div>
+          <div class="row-card">
+            <div class="row-img">
+              <img src="./img/person6.jpg" alt="card-img" />
+            </div>
+            <div class="row-text">
+              <h4>25th February, 2023</h4>
+              <h2>Professional Prestige through Dilligence</h2>
+              <p>For most of us, the idea of astronomy is something we directly connect to "stargazing", telescope and seeing magnificient displays in the heavens.</p>
+            </div>
+          </div>
+        </div>
+        <div class="owl-controls"></div>
+      </div>
+    </section>
+
+    <section class="review-area section-gap relative">
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="review-box">
+            <div class="review-card">
+              <div class="review-header">
+                <h2>Fanie Sutton</h2>
+                <div class="star">
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="grey-star" name="star-outline"></ion-icon>
+                  <ion-icon class="grey-star" name="star-outline"></ion-icon>
+                </div>
+              </div>
+              <p>Accessories Here you can find the best computer accessories for your laptop monitor, printer, scanner, speaker. Accessories Here you can find the best computer accessories for your laptop monitor, printer, scanner, speaker</p>
+            </div>
+            <div class="review-card">
+              <div class="review-header">
+                <h2>Fanie Sutton</h2>
+                <div class="star">
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="yellow-star" name="star-outline"></ion-icon>
+                  <ion-icon class="grey-star" name="star-outline"></ion-icon>
+                  <ion-icon class="grey-star" name="star-outline"></ion-icon>
+                </div>
+              </div>
+              <p>Accessories Here you can find the best computer accessories for your laptop monitor, printer, scanner, speaker. Accessories Here you can find the best computer accessories for your laptop monitor, printer, scanner, speaker</p>
+            </div>
+            <div class="review-control"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-one-area relative section-gap">
+      <div class="container">
+        <div class="overlay overlay-bg"></div>
+        <div class="row justify-content-center">
+          <div class="wrap">
+            <h1 class="text-white">Become an instructor</h1>
+            <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It's exciting to think about seting up your own viewing station whether that is on the deck.</p>
+            <a href="#" class="primary-btn wh">Apply for the post</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-area">
+      <div class="footer-container">
+          <div class="footer-row">
+              <div class="single-footer">
+                  <h4>Products</h4>
+                  <ul>
+                      <li><a href="#">Managed Website</a></li>
+                      <li><a href="#">Managed Reputation</a></li>
+                      <li><a href="#">Power Tools</a></li>
+                      <li><a href="#">Marketing Service</a></li>
+                  </ul>
+              </div>
+              <div class="single-footer">
+                  <h4>Links</h4>
+                  <ul>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Investor Relations</a></li>
+                      <li><a href="#">Brand Assets</a></li>
+                      <li><a href="#">Jobs</a></li>
+                  </ul>
+              </div>
+              <div class="single-footer">
+                  <h4>Features</h4>
+                  <ul>
+                      <li><a href="#">Jobs</a></li>
+                      <li><a href="#">Brand Assets</a></li>
+                      <li><a href="#">Investor Relations</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                  </ul>
+              </div>
+              <div class="single-footer">
+                  <h4>Resources</h4>
+                  <ul>
+                      <li><a href="#">Guides</a></li>
+                      <li><a href="#">Research</a></li>
+                      <li><a href="#">Experts</a></li>
+                      <li><a href="#">Agencies</a></li>
+                  </ul>
+              </div>
+
+              <div class=" newsletter">
+                  <h4>Newsletter</h4>
+                  <p>Stay updated with our latest</p>
+
+                  <form action="">
+                      <input class="form-input" type="email" name="" id="" placeholder="Your Email Address" />
+                      
+                      <button type="submit">
+                        <ion-icon class="arrow-btn" name="arrow-forward-outline"></ion-icon>
+                      </button>
+                  </form>
+                 
+              </div>
+          </div>
+
+          <div class="footer-bottom ">
+              <p class="footer-text">
+                  Copyright &COPY;
+                  <script>document.write(new Date().getFullYear())</script>
+                   All rights reserved <span>Uhere</span> Study Centre.
+              </p>
+              <div class="footer-social ">
+                  <a class="footer-link href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+                  <a class="footer-link href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+                  <a class="footer-link href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+                  <a class="footer-link href="#"><ion-icon class="social-icon" name="logo-linkedin"></ion-icon></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
   </body>
 </html>

@@ -136,3 +136,18 @@ h1 {
 .section-gap {
   padding: 12rem 0;
 }
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.primary-btn {
+  background: #f7631b;
+  line-height: 4.2rem;
+  padding: 0 3rem;
+  border: none;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
