@@ -256,6 +256,10 @@ nav ul li a:active {
   overflow: hidden;
 }
 
+/* .card-img .overlay-bg {
+  background: rgba(4, 9, 30, 0.8);
+} */
+
 .card-img img {
   max-width: 30rem;
   width: 100%;
@@ -527,7 +531,7 @@ select {
 }
 
 .cta-one-area .overlay-bg {
-  background: rgba(4, 9, 30, 0.2);
+  background: rgba(4, 9, 30, 0.4);
 }
 
 .cta-one-area h1 {
@@ -560,7 +564,7 @@ select {
 
 .wrap a:hover,
 .wrap a:active {
-  background: #222;
+  background: #f7631b;
   color: #fff;
 }
 
