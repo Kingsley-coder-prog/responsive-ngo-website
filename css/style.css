@@ -97,6 +97,44 @@ nav ul li a:active {
   color: #f7631b;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: all 0.5s;
+  background-color: rgba(4, 9, 30, 0.9);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 3.2rem;
+}
+
+/* HERO/BANNER SECTION */
 .banner-area {
   background: url("../img/hero.webp") right;
   background-size: cover;
@@ -248,6 +286,8 @@ nav ul li a:active {
   display: flex;
   gap: 2rem;
   width: 100%;
+  /* overflow-x: auto;
+  scroll-snap-type: x mandatory; */
 }
 
 .card {
@@ -482,6 +522,33 @@ select {
   font-weight: 400;
 }
 
+/* GALLERY AREA */
+.swiper-slide img .overlay-bg {
+  background: rgba(4, 9, 30, 0.8);
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  /* max-width: 114rem; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* REVIEW AREA */
 .review-area {
   background: #f9f9ff;
@@ -610,6 +677,7 @@ select {
   transition: all 0.3s ease 0s;
   font-weight: 300;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .single-footer ul li a:hover,
